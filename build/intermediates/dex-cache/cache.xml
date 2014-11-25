@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/root/AndroidStudioProjects/GirRecipesNav/app/build/intermediates/pre-dexed/debug/classes-985b564f68fc7a626a95ff834e31b1382a7a47b1.jar"
+        jar="/root/AndroidStudioProjects/GirRecipesNav/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+    <item
+        dex="/home/demo/Descargas/NavigationDrawerActivity2/app/build/intermediates/pre-dexed/debug/classes-57da28cfcbc26acb5a0a2749dc9e635f7de3f9f6.jar"
+        jar="/home/demo/Descargas/NavigationDrawerActivity2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="/home/demo/Descargas/NavigationDrawerActivity2/app/build/intermediates/pre-dexed/debug/classes-dea7bfb145ff9bcc110c5f80da2bfe11a99a2ea9.jar"
+        jar="/home/demo/Descargas/NavigationDrawerActivity2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+    <item
+        dex="/root/AndroidStudioProjects/GirRecipesNav/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-15744089763206bed812c12141b395284dad089d.jar"
+        jar="/root/AndroidStudioProjects/GirRecipesNav/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/home/demo/Descargas/NavigationDrawerActivity2/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-4a6ee86a36e80aa7ae479d641efbfc49f4433111.jar"
+        jar="/home/demo/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/home/demo/Descargas/NavigationDrawerActivity2/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-b491cc5e14fde4c085a5a999d502cfa9ec046d1f.jar"
+        jar="/home/demo/Descargas/NavigationDrawerActivity2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/root/AndroidStudioProjects/GirRecipesNav/app/build/intermediates/pre-dexed/debug/classes-987b154b4c252d134d5c8a9ab4bc7611906c1ef3.jar"
+        jar="/root/AndroidStudioProjects/GirRecipesNav/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+
+</pre-dex-items>

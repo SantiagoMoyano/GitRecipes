@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe_container"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lista_recetas"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        </ListView>
+
+    </LinearLayout><!-- From: file:/root/AndroidStudioProjects/GirRecipesNav/app/src/main/res/layout/mis_recetas.xml -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#00000000">
+
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imagen_mis_recetas"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="recetaClickeada"/>
+
+    <TextView
+        android:id="@+id/titulo_mis_recetas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="#f0000000"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imagen_mis_recetas" />
+
+    <TextView
+        android:id="@+id/descripcion_mis_recetas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo_mis_recetas"
+        android:textSize="25dp"
+        android:textColor="#f0000000"
+        android:layout_toRightOf="@+id/imagen_mis_recetas" />
+
+</RelativeLayout><!-- From: file:/root/AndroidStudioProjects/GirRecipesNav/app/src/main/res/layout/lista_receta_item.xml -->

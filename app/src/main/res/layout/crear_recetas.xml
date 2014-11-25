@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:id="@+id/imagen_titulo">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:id="@+id/imagen"
+                android:layout_gravity="left|top"
+                android:onClick="entrar"
+                android:background="@drawable/predeterminado_plato"
+                android:scaleType="fitXY"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titulo"
+                android:hint="@string/titulo_receta"
+                android:textSize="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:textColor="#ff000000"
+                android:textColorHint="#ffa0a0a0" />
+
+        </LinearLayout>
+
+     <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/imagen_titulo"
+            android:id="@+id/ingre">
+
+            <EditText
+                android:id="@+id/descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/texto_receta"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff000000"
+                android:textColorHint="#ffa0a0a0" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredientes"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingredientes"
+                android:layout_below="@+id/descripcion"
+                android:layout_toLeftOf="@+id/btn_ing"
+                android:layout_alignParentLeft="true"
+                android:textColor="#ff000000"
+                android:textColorHint="#ffa0a0a0" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ing_btn"
+                android:layout_marginTop="20dp"
+                android:id="@+id/btn_ing"
+                android:layout_below="@+id/descripcion"
+                android:layout_alignParentRight="true"
+                android:onClick="insIng"
+                android:textColor="#ff000000"/>
+      </RelativeLayout>
+    <ExpandableListView
+        android:id="@+id/lista_ingredientes"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_ing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:isScrollContainer="false"
+        android:headerDividersEnabled="false" />
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pasoslay">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pasos"
+                android:layout_marginTop="20dp"
+                android:hint="@string/pasos"
+                android:layout_toLeftOf="@+id/btn_paso"
+                android:layout_alignParentLeft="true"
+                android:textColor="#ff000000"
+                android:textColorHint="#ffa0a0a0"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pasos_btn"
+                android:id="@+id/btn_paso"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentRight="true"
+                android:onClick="insPas"/>
+        </RelativeLayout>
+
+        <ExpandableListView
+            android:textColor="#ff000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lista_pasos"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/pasos"
+            android:layout_alignParentLeft="@+id/pasos"
+            android:layout_alignParentRight="true"/>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/ingre"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/crearla"
+                android:id="@+id/crearla"
+                android:onClick="crear"
+                android:textColor="#ff000000"/>
+        </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

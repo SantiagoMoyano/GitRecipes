@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.navigation.drawer.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/git_recipes"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+            <meta-data android:name="com.google.android.apps.drive.APP_ID" android:value="id=825866831076" />
+            <intent-filter>
+            <action android:name="com.google.android.apps.drive.DRIVE_OPEN" />
+            </intent-filter>
+        <!-- 
+        	We will launch BaseActivity as launcher.
+        	We will check if BaseActivity launch first time and open desired activity and set navigation item selected
+			 -->
+        <activity
+            android:name="com.navigation.drawer.activity.BaseActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.navigation.drawer.activity.CrearRecetas" />
+        <activity android:name="com.navigation.drawer.activity.MisRecetas" />
+        <activity android:name="com.navigation.drawer.activity.MiPerfil" />
+        <activity android:name="com.navigation.drawer.activity.MostrarReceta" />
+    </application>
+
+</manifest>

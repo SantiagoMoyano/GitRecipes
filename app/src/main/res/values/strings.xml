@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+
+    <string name="app_name">GitRecipes</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="title_activity_inicio">inicio</string>
+    <string name="search_recipe">Buscar Recetas</string>
+    <string name="title_activity_crear_receta">crear_receta</string>
+    <string name="titulo_receta">Insertar titulo</string>
+    <string name="texto_receta">Insertar descripcion</string>
+    <string name="cr">Crear Receta</string>
+    <string name="mr">Mis Recetas</string>
+    <string name="mp">Mi Perfil</string>
+
+    <string name="crearla">Crear la receta</string>
+    <string name="ingredientes">Inserte el ingrediente, seguida de su cantidad y su unidad</string>
+    <string name="cant_ing">Cantidad numerica</string>
+    <string name="ing_btn">Crear ingrediente</string>
+    <string name="pasos">Inserte aqui los pasos</string>
+    <string name="pasos_btn">Crear paso</string>
+
+    <string-array name="options">
+        <item name="item_uno">Camara</item>
+        <item name="item_dos">Galeria</item>
+    </string-array>
+
+    <string name="title_activity_crear_recetas">CrearRecetas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_hola">Hola</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_mis_recetas">MisRecetas</string>
+    <string name="title_activity_mi_perfil">MiPerfil</string>
+
+</resources>

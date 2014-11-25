@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GirRecipesNav.iml" filepath="$PROJECT_DIR$/GirRecipesNav.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GitRecipes.iml" filepath="$PROJECT_DIR$/GitRecipes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+

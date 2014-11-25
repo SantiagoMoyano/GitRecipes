@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:id="@+id/imagen_titulo_m">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="390dp"
+                    android:id="@+id/imagen_m"
+                    android:layout_gravity="left|top"
+                    android:onClick="entrar"
+                    android:background="@drawable/predeterminado_plato"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titulo_m"
+                    android:hint="@string/titulo_receta"
+                    android:textSize="30dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ffa0a0a0" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_below="@+id/imagen_titulo"
+                android:id="@+id/ingre_m">
+
+                <EditText
+                    android:id="@+id/descripcion_m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/texto_receta"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ff000000"
+                    android:textColorHint="#ffa0a0a0" />
+
+                <ExpandableListView
+                    android:id="@+id/lista_ingredientes_m"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descripcion_m"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:isScrollContainer="false"
+                    android:headerDividersEnabled="false" />
+
+                <ExpandableListView
+                    android:textColor="#ff000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lista_pasos_m"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/lista_ingredientes_m"
+                    android:layout_alignParentLeft="@+id/pasos"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+</LinearLayout><!-- From: file:/root/AndroidStudioProjects/GirRecipesNav/app/src/main/res/layout/mostrar_recetas.xml -->
